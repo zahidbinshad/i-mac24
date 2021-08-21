@@ -1,0 +1,23 @@
+body{
+    font-family: 'Ruda', sans-serif;
+}
+.btn{
+    border: 1px solid #e9a138;
+    color: rgb(58, 53, 53);
+    outline: none;
+}
+.btn:hover{
+    border: 1px solid #e9a138;
+    background:#e9a138 ;
+    color: #ffffff;
+}
+.input-box {
+    border: 1 px solid;
+    border: 1px solid #e9a138;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    color: #e9a138;
+    
+}

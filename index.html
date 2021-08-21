@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Apple Official Stor</title>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="container-fluid">
+            <img src="images/imac.jpg" alt="" class="w-100 img-fluid">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem deserunt
+                facilis, aspernatur sint
+                mollitia debitis enim similique maiores laboriosam, quos consectetur aut temporibus sequi deleniti
+                repellendus ipsa cumque unde.</p>
+        </div>
+    </section>
+
+    <section class="specification">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="text-center">Choose Your Options</h2>
+                    <div class="memory  mb-3">
+                        <h4>Memory</h4>
+                        <button id="memory8" class="btn">8 gb unified memory</button>
+                        <button id="memory16" class="btn">16 gb unified memory</button>
+                    </div>
+                    <div class="Storage  mb-3">
+                        <h4>Storage</h4>
+                        <button id="storage256" class="btn">256gb SSD storege</button>
+                        <button id="storage512" class="btn">512gb SSD storege</button>
+                        <button id="storage1TB" class="btn"> 1Tbgb SSD storege</button>
+                    </div>
+                    <div class="memory">
+                        <h4>Choose your delivery option</h4>
+                        <button id="prime-delivery" class="btn">Friday,25th Augst prime delivery</button>
+                        <button id="fast-delivery" class="btn">Friday,21st Augst delivery cost $20</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2>Total Price</h2>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Base Price:</p>
+                        <p>$ <span id="base-price">1240</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Extra Memory Cost:</p>
+                        <p>$ <span id="memory-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Extra Storage Cost ::</p>
+                        <p>$ <span id="storage-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Delivery Charge :</p>
+                        <p>$ <span id="delivery-cost">0</span> </p>
+                    </div>
+                    <div class="base-price d-flex justify-content-between">
+                        <p>Total Price :</p>
+                        <p>$ <span id="sub-total">0</span> </p>
+                    </div>
+                    <div class="base-price ">
+                        <p>Add Promocode</p>
+                        <p><input class="input-box" id="cupon-code" type="text"></p>
+                        <button class="btn" id='cupon-apply'>Apply</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="final-price ">
+        <div class="container d-grid my-5">
+            <button class="btn btn-primary text-white" type="button">$<span id="final-price">0</span></button>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
