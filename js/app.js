@@ -1,7 +1,7 @@
 //extraMemoryCostFunction
-function getExtraMemoryCost(cost){
+function getExtraMemoryCost(cost, element){
     const basePrice = cost;
-    const extraFetureCost = document.getElementById('memory-cost');
+    const extraFetureCost = document.getElementById(element);
     extraFetureCost.innerText = parseInt(basePrice);
 }
 
@@ -35,7 +35,7 @@ function totalPrice(){
 //extraMemoryevent
 document.getElementById('memory8').addEventListener('click',function(){
     // 
-    getExtraMemoryCost(0);
+    getExtraMemoryCost(0, 'memory8');
     
     totalPrice();
 
