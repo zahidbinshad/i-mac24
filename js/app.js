@@ -41,7 +41,7 @@ document.getElementById('memory8').addEventListener('click',function(){
 
 });
 document.getElementById('memory16').addEventListener('click',function(){
-    getExtraMemoryCost(180);
+    getExtraMemoryCost(180, 'memory16');
     
     totalPrice();
     
