@@ -57,11 +57,11 @@ function getExtraStorageCost(cost){
 }
 //extraStorageEvent
 document.getElementById('storage256').addEventListener('click',function(){
-    getExtraStorageCost(0);
+    getExtraMemoryCost(0, 'storage256');
     totalPrice();
 })
 document.getElementById('storage512').addEventListener('click',function(){
-    getExtraStorageCost(100);
+    getExtraStorageCost(100, 'storage512');
     totalPrice();
 })
 document.getElementById('storage1TB').addEventListener('click',function(){
